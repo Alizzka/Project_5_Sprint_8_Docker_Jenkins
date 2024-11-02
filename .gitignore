@@ -1,0 +1,12 @@
+.allure/
+.idea/
+classes/
+generated-sources/
+generated-test-sources/
+maven-status/
+data/
+export/
+plugins/
+widgets/
+jacoco-resources/
+org.example/
