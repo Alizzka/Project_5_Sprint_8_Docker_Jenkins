@@ -1,6 +1,5 @@
 import org.example.Praktikum;
 import org.junit.jupiter.api.Test;
-
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
 
@@ -16,7 +15,7 @@ class PraktikumTest {
         // Запускаем main
         Praktikum.main(new String[]{});
 
-        // Проверка содержимого вывода, если нужно
+        // Проверка содержимого вывода
         String expectedOutput = "Можно ли использовать имя \"Тимоти Шаламе\" для печати на карте? Да";
         assertTrue(outContent.toString().contains(expectedOutput));
 
